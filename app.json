@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "React Native CRUD",
+    "slug": "react-native-crud",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./v1/assets/icon.png",
+    "splash": {
+      "image": "./v1/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "reactnativecrud.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./v1/assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./v1/assets/favicon.png"
+    }
+  }
+}
